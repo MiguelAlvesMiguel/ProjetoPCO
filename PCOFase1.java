@@ -21,12 +21,14 @@ public class PCOFase1 {
 		char[] column5 = {'-','-','$','$','!','!'};
 		char[] column6 = {'-','@','$','$','!','!'};
 		char[] column7 = {'-','-','-','-','-','$','$','!'};
+		char[] column8 = {'-','-','-','-','-','-','-','-','$','$','$','$'};
 		
 		char[] peca1 = {'$','!','!'};
 		char[] peca2 = {'$','!','!'};
 		char[] peca3 = {'$','!','!'};
 		char[] peca4 = {'!','$','$'};
 		char[] peca5 = {'%','$','$'};
+		char[] peca6 = {'$','$','$','$','$'};
 		
 		// Testar metodos copyColumn e placePiece
 		System.out.println("=============================");
@@ -51,6 +53,9 @@ public class PCOFase1 {
 		testLevel3(column5, peca4);
 		testLevel3(column6, peca4);
 		testLevel3(column7, peca4);
+		System.out.println("=============================");
+		System.out.println("TESTES EXTRA:");
+		testLevel3(column8, peca6);
 	}
 	
 	/**
@@ -117,6 +122,9 @@ public class PCOFase1 {
 		printColumn(TransformMethods.applyTransforms(col, piece));
 		System.out.println();
 	}
+	
+
+	
 	
 	/**
 	 * Imprimir os elementos de um vetor de carateres no standard output
