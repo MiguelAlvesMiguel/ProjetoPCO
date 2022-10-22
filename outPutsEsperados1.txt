@@ -1,0 +1,100 @@
+=============================                                      
+TESTES NIVEL 1:                                      
+=============================                                      
+COLUNA ORIGINAL:                                      
+--------!$$                                      
+PEÇA A COLOCAR:$!!                                      
+COLUNA COPIA:                                      
+--------!$$                                      
+COLUNA JA' COM PECA COLOCADA:                                      
+-----$!!!$$                                      
+                                      
+=============================                                      
+COLUNA ORIGINAL:                                      
+$#!!@!$#!$$                                      
+PEÇA A COLOCAR:$!!                                      
+COLUNA COPIA:                                      
+$#!!@!$#!$$                                      
+COLUNA JA' COM PECA COLOCADA:                                      
+$#!!@!$#!$$                                      
+                                      
+=============================                                      
+COLUNA ORIGINAL:                                      
+------------                                      
+PEÇA A COLOCAR:$!!                                    
+COLUNA COPIA:                                    
+------------                                    
+COLUNA JA' COM PECA COLOCADA:                                    
+---------$!!                                    
+                                    
+=============================                                    
+TESTES NIVEL 2:                                    
+=============================                                    
+COLUNA ORIGINAL:                                    
+-----$$!                                    
+PEÇA A COLOCAR:!$$                                    
+COLUNA DEPOIS DE ELIMINACAO:                                    
+Eliminou? true                                    
+--!----!                                    
+                                    
+=============================                                    
+COLUNA ORIGINAL:                                    
+---$!!                                    
+PEÇA A COLOCAR:%$$                                    
+COLUNA DEPOIS DE ELIMINACAO:                                    
+Eliminou? true                                    
+%---!!                                    
+                                    
+=============================                                    
+COLUNA ORIGINAL:                                    
+-----$$!                                    
+PEÇA A COLOCAR:$!!                                    
+COLUNA DEPOIS DE ELIMINACAO:                                    
+Eliminou? false                                    
+--$!!$$!                                    
+                                    
+=============================                                    
+TESTES NIVEL 3:                                    
+=============================                                    
+COLUNA ORIGINAL:                                    
+--------!$$                                    
+PEÇA A COLOCAR:$!!                                    
+COLUNA FINAL:                                    
+-----------                                    
+                                    
+=============================                                    
+COLUNA ORIGINAL:                                    
+$#!!@!$#!$$                                    
+PEÇA A COLOCAR:$!!                                    
+COLUNA FINAL:                                    
+$#!!@!$#!$$                                    
+                                    
+=============================                                    
+COLUNA ORIGINAL:                                    
+------------                                    
+PEÇA A COLOCAR:$!!                                    
+COLUNA FINAL:                                    
+---------$!!                                    
+                                    
+=============================                                    
+COLUNA ORIGINAL:                                    
+--$$!!                                    
+PEÇA A COLOCAR:!$$                                    
+COLUNA FINAL:                                    
+--$$!!                                    
+                                    
+=============================                                    
+COLUNA ORIGINAL:                                    
+-@$$!!                                    
+PEÇA A COLOCAR:!$$                                    
+COLUNA FINAL:                                    
+-@$$!!                                    
+                                    
+=============================                                    
+COLUNA ORIGINAL:                                    
+-----$$!                                    
+PEÇA A COLOCAR:!$$                                    
+COLUNA FINAL:                                    
+------!!                                    
+                                    
+                                    

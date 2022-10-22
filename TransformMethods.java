@@ -66,15 +66,15 @@ public class TransformMethods {
     static void placePiece(char[] col, char[] piece) {
         //Loop until find a empty spot with at lest PIECE_LENGHT spaces before a piece or the end of the column
         for (int pos = 0; pos < col.length; pos++) {
-            if (col[pos] != EMPTY || pos == col.length-1) { // Found a piece
-                if (pos >= piece.length) {
-                    for (int i = 0; i < piece.length; i++) {
+            if (col[pos] != EMPTY || pos == col.length-1) { // Found a piece or the end of the column
+                if (pos >= piece.length) { // if there is enough space to place the piece
+                    for (int i = 0; i < piece.length; i++) {    
                         // Put the piece starting from
-                        col[pos - 1 - i] = piece[piece.length - 1 - i];
+                        col[pos  - i] = piece[piece.length - 1 - i];
                     }
                     return;
                 } else {
-                    System.out.println("Não há espaço na coluna");
+                    //System.out.println("Não há espaço na coluna");
                     // Piece doesn't fit ---> Lose the game :(
                     return;
                 }
@@ -136,13 +136,12 @@ public class TransformMethods {
 			//Found a piece
 			for(int idxAux=idx+1;idxAux<col.length;idxAux++){
 				if(col[idxAux]==EMPTY) {
-					//Move entire column down
-					for(int idxAux2=idxAux;idxAux2>idx;idxAux2--){
-						col[idxAux2]=col[idxAux2-1];
+					//Move entire column down // --$-$ -> ---$$ 
+					for(int idxAux2=idxAux;idxAux2>idx;idxAux2--){ //O(N) can be imroved by counting the number of empty spaces
+						col[idxAux2]=col[idxAux2-1]; // Copy the piece before the empty space  
 					}
 					col[idx]=EMPTY;
 					break;
-					
 				}
 			}
 		}

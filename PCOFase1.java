@@ -22,6 +22,7 @@ public class PCOFase1 {
 		char[] column6 = {'-','@','$','$','!','!'};
 		char[] column7 = {'-','-','-','-','-','$','$','!'};
 		char[] column8 = {'-','-','-','-','-','-','-','-','$','$','$','$'};
+		char[] column9 = {'-','$','$','$','$'};
 		
 		char[] peca1 = {'$','!','!'};
 		char[] peca2 = {'$','!','!'};
@@ -29,6 +30,7 @@ public class PCOFase1 {
 		char[] peca4 = {'!','$','$'};
 		char[] peca5 = {'%','$','$'};
 		char[] peca6 = {'$','$','$','$','$'};
+		char[] peca7 = {'$'};
 		
 		// Testar metodos copyColumn e placePiece
 		System.out.println("=============================");
@@ -56,6 +58,7 @@ public class PCOFase1 {
 		System.out.println("=============================");
 		System.out.println("TESTES EXTRA:");
 		testLevel3(column8, peca6);
+		testLevel3(column9, peca7);
 	}
 	
 	/**
