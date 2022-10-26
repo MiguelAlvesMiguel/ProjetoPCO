@@ -1,7 +1,9 @@
 /**
  * 
  * @author
- *
+ *Miguel Miguel fc58628
+ *Tomás Alves fc58633
+ *Miguel Sainica fc55370
  */
 public class TransformMethods {
     static final int PICE_SIZE = 3;
