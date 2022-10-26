@@ -1,6 +1,6 @@
 /**
  * 
- * @author Miguel Miguel fc58628, Tomás Alves fc58633, Miguel Sainica fc55370
+ * @author Grupo 35  Miguel Miguel fc58628, Tomás Alves fc58633, Miguel Sainica fc55370
  *
  */
 public class TransformMethods {
